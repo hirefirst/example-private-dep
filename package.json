@@ -4,6 +4,8 @@
   "description": "My App",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "rebuild": "rm -fr node_modules/; npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
